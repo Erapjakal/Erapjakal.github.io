@@ -22,3 +22,12 @@
     padding: 3em !important;
   }
 }
+body
+{
+  background-image: url(\\img/bg-main.jpg);
+  background-color: #c7b39b;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
