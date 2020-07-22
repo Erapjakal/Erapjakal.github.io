@@ -31,3 +31,45 @@ body
   background-size: cover;
   background-attachment: fixed;
 }
+.card-deck .card .card-body
+{
+  
+  transition: 1s;
+}
+.card-deck .card .card-body:hover
+{
+  box-shadow: 0 0 5px #ffffff,
+  0 0 55px #ffffff,
+  0 0 155px #ffffff,
+  0 0 255px #ffffff;
+  
+}
+.card h2
+{
+  transition: 1s;
+}
+.card h2:hover
+{
+  letter-spacing: 24px;
+  background: -webkit-linear-gradient(rgb(233, 159, 184), rgba(116, 245, 84, 0.986));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,108,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.card a
+{
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /*overflow: hidden;*/
+  transition: 0.5s;
+}
+.card a:hover
+{
+  background: #d9534f;
+  border: transparent;
+  
+  letter-spacing: 15px;
+}
